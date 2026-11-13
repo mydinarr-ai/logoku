@@ -150,9 +150,9 @@ window.setT=setT;
   if (hasA) { args.push('-i', audio); n++; }
   if (hasM) { args.push('-stream_loop', '-1', '-i', music); }
   if (hasA && hasM) {
-    args.push('-filter_complex', `[2:a]volume=0.14[m];[1:a][m]amix=inputs=2:duration=first[a]`, '-map', '0:v', '-map', '[a]');
+    args.push('-filter_complex', `[2:a]volume=0.16[m];[1:a]volume=1.0[v];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11[a]`, '-map', '0:v', '-map', '[a]');
   } else if (hasA) {
-    args.push('-map', '0:v', '-map', '1:a');
+    args.push('-filter_complex', '[1:a]loudnorm=I=-16:TP=-1.5:LRA=11[a]', '-map', '0:v', '-map', '[a]');
   } else if (hasM) {
     args.push('-filter_complex', `[1:a]volume=0.25[a]`, '-map', '0:v', '-map', '[a]');
   }

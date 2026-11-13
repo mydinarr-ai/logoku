@@ -53,5 +53,6 @@
       "motion": "zoom-in"
     }
   ],
-  "audio": "vo.mp3"
+  "audio": "vo.mp3",
+  "music": "musik.mp3"
 }
