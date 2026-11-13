@@ -1,0 +1,9 @@
+{
+  "title": "Contoh: Nasi Sudah Matang?",
+  "brand": "@akunkamu",
+  "scenes": [
+    {"image": "scene1.png", "headline": "Nasi sudah matang?", "caption": "Rice cooker bilang matang. Tapi benarkah?", "duration": 3.5, "motion": "zoom-in"},
+    {"image": "scene2.png", "headline": "Uapnya ke mana?", "caption": "Air menguap, suhu naik melewati 100°C.", "duration": 3.5, "motion": "pan-left"},
+    {"image": "scene3.png", "headline": "Klik! Pindah warm", "caption": "Sensor suhu memutus pemanas. Itu rahasianya.", "duration": 3.5, "motion": "zoom-out"}
+  ]
+}
