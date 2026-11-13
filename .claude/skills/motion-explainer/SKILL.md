@@ -51,7 +51,8 @@ Selalu simpan juga `prompt-gambar.md` berisi prompt tiap scene, supaya user bisa
 ### 5. Suara
 - Opsional tapi sangat disarankan. Jika ada tool voice/TTS yang terhubung (mis. Karyawan AI `voice_list`/`gen_run`), buat `vo.mp3` dari narasi. Bila tidak ada, buat `narasi-vo.txt` yang rapi untuk direkam user atau dipakai di TTS pilihan mereka.
 - Musik latar: hanya bila user menyediakan file (`music`). Jangan ambil musik berhak cipta dari internet.
-- Penyesuaian: kalau `vo.mp3` sudah ada, ukur durasinya (`ffprobe`) dan atur `duration` tiap scene agar total ≈ durasi VO.
+- Penyesuaian: setelah ada `vo.mp3`, jalankan `node <path-skill>/scripts/fit-audio.cjs motion-<slug>/storyboard.json motion-<slug>/vo.mp3`. Skrip membagi durasi audio ke tiap scene menurut jumlah kata (isi field `narasi` tiap scene dengan teks yang dibacakan; bila kosong dipakai `caption`) dan mengisi field `audio`. Itu perkiraan: cek draft dan koreksi `duration` manual bila ada scene yang terasa terlalu cepat atau lambat.
+- Opsi suara murah: rekam sendiri, CapCut Text to Speech, atau Google AI Studio (cek apakah model speech gratis untuk akun user; Google Cloud TTS wajib billing).
 
 ### 6. Render
 Tulis `storyboard.json` (skema di bawah), lalu:
