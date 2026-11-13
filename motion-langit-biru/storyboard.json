@@ -1,0 +1,14 @@
+{
+  "title": "Kenapa Langit Biru?",
+  "brand": "@akunkamu",
+  "mascot": "mascot.png",
+  "scenes": [
+    {"image":"scene1.png","headline":"Kenapa langit biru?","caption":"Padahal udara itu tidak berwarna.","duration":3.5,"motion":"zoom-in"},
+    {"image":"scene2.png","headline":"Cahaya matahari","caption":"Tampak putih, tapi isinya campuran semua warna pelangi.","duration":4.5,"motion":"pan-left"},
+    {"image":"scene3.png","headline":"Tabrakan di udara","caption":"Cahaya menabrak molekul udara lalu menyebar ke segala arah.","duration":4.5,"motion":"zoom-out"},
+    {"image":"scene4.png","headline":"Biru paling menyebar","caption":"Gelombang pendek menyebar jauh lebih kuat daripada merah.","duration":4.5,"motion":"pan-right"},
+    {"image":"scene5.png","headline":"Kok bukan ungu?","caption":"Ungu di sinar matahari lebih sedikit, dan mata kita kurang peka.","duration":4.5,"motion":"zoom-in"},
+    {"image":"scene6.png","headline":"Lalu senja?","caption":"Matahari rendah: cahaya menempuh jalur panjang, biru habis tersebar, tersisa jingga.","duration":5,"motion":"zoom-out"},
+    {"image":"scene7.png","headline":"Penasaran lagi?","caption":"Follow, dan tulis topik berikutnya di komentar!","duration":3.5,"motion":"zoom-in"}
+  ]
+}
