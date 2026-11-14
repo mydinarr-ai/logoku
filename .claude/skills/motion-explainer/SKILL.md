@@ -94,6 +94,22 @@ Kirim ke user: `final.mp4`, `naskah.md`, `prompt-gambar.md`, dan **caption + has
 ## Batasan renderer (jujur ke user)
 Renderer membuat **gerak kamera, teks animasi, transisi, maskot, dan mixing audio** di atas gambar statis. Ini bukan animasi karakter per frame seperti studio. Efek "hidup" datang dari gerak kamera, pop-in teks, dan ritme scene yang cepat. Bila user ingin animasi karakter yang benar-benar bergerak, arahkan ke generator video AI atau Canva (video/animasi), lalu tawarkan menyusun hasilnya di sini.
 
+
+## Kalau user memberi materi (PDF, Word, PPT, catatan, link, foto buku)
+
+Materi dari user adalah **sumber utama** (fakta tidak boleh keluar dari materi tanpa ditandai). Alurnya:
+1. Baca seluruh materi. Tulis ringkasan 3-5 baris tentang apa isinya dan untuk siapa.
+2. Pecah menjadi **ide video**: satu konsep = satu video 30-45 detik. Materi panjang jadi **seri** (mis. Bab 1 → 5 video). Tampilkan daftar judul + hook tiap video dalam satu tabel pendek, lalu pilih video pertama yang paling mudah dipahami, kecuali user menunjuk bagian tertentu.
+3. Tiap video: ambil istilah, rumus, angka, dan contoh **persis dari materi**. Bagian yang kurang jelas ditandai "perlu verifikasi" di naskah. Jangan menambah klaim baru.
+4. Lanjutkan ke alur utama mulai tahap 3 (naskah + storyboard).
+Untuk rumus/angka/grafik (matematika, bisnis), render sendiri sebagai teks/SVG (lihat `scripts/` dan contoh di `assets/contoh`), jangan digenerate sebagai gambar AI karena sering salah menulis simbol.
+
+## Pelajaran dari video pertama (langit biru)
+- **Tanpa handle/brand di layar** kecuali user menyebut akunnya (`"brand": ""`).
+- **Musik latar**: bila user minta tapi tidak punya file, buat musik orisinal (lihat `assets/contoh/gen-musik.py`), jangan ambil lagu berhak cipta. Volume di bawah suara; renderer sudah menormalkan volume akhir.
+- **TTS gratis** (mis. TTSMaker) punya batas karakter: pecah naskah menjadi 2 bagian (maks sekitar 450 karakter per bagian, potong di akhir kalimat), minta user pakai suara yang sama, lalu gabungkan `vo1.mp3` + `vo2.mp3` dengan `ffmpeg concat`. Selaraskan durasi scene dengan jeda napas (`ffmpeg silencedetect`), bukan hanya jumlah kata.
+- Beri keterangan unggahan (judul, deskripsi, hashtag, tag, komentar sematan) dan thumbnail (9:16 + 16:9) sebagai bagian serah-terima, bila user akan mengunggah ke YouTube Shorts.
+
 ## Aturan kualitas
 - Satu scene = satu ide = satu gambar fokus. Jangan memadatkan teks.
 - Headline maksimal 5 kata, caption maksimal ~12 kata, ukuran teks tetap terbaca di HP.
