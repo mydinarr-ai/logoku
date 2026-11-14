@@ -1,0 +1,64 @@
+{
+  "title": "Prambanan: Dibangun 1 Malam?",
+  "brand": "",
+  "mascot": "mascot.png",
+  "music": "musik.mp3",
+  "scenes": [
+    {
+      "image": "scene1.png",
+      "headline": "Dibangun 1 malam?",
+      "caption": "Kata legenda, Prambanan selesai dalam semalam.",
+      "narasi": "Prambanan dibangun dalam satu malam? Begitu kata legenda.",
+      "duration": 4.0,
+      "motion": "zoom-in"
+    },
+    {
+      "image": "scene2.png",
+      "headline": "Legenda Roro Jonggrang",
+      "caption": "Diminta membangun 1.000 candi dalam semalam.",
+      "narasi": "Konon, Bandung Bondowoso diminta membangun seribu candi dalam semalam oleh Roro Jonggrang.",
+      "duration": 5.8,
+      "motion": "pan-left"
+    },
+    {
+      "image": "scene3.png",
+      "headline": "Ayam berkokok!",
+      "caption": "Fajar palsu, pekerjaan pun gagal.",
+      "narasi": "Saat tinggal satu candi, ayam berkokok lebih awal, dan pekerjaan pun gagal.",
+      "duration": 5.8,
+      "motion": "zoom-out"
+    },
+    {
+      "image": "scene4.png",
+      "headline": "Faktanya?",
+      "caption": "Itu cerita rakyat. Prasasti: dimulai sekitar 850 M.",
+      "narasi": "Tapi itu cerita rakyat, bukan catatan sejarah. Prasasti menunjukkan pembangunan Prambanan dimulai sekitar tahun delapan ratus lima puluh Masehi.",
+      "duration": 9.0,
+      "motion": "pan-right"
+    },
+    {
+      "image": "scene5.png",
+      "headline": "Dibangun bertahap",
+      "caption": "Dimulai Rakai Pikatan, dilanjutkan raja-raja berikutnya.",
+      "narasi": "Pembangunnya Rakai Pikatan, dan kompleks ini disempurnakan raja-raja berikutnya, jadi bukan dalam semalam.",
+      "duration": 6.3,
+      "motion": "zoom-in"
+    },
+    {
+      "image": "scene6.png",
+      "headline": "Candi Siwa 47 meter",
+      "caption": "Warisan Dunia UNESCO sejak 1991.",
+      "narasi": "Candi Siwa, yang terbesar, setinggi sekitar empat puluh tujuh meter. Prambanan masuk Warisan Dunia UNESCO pada tahun seribu sembilan ratus sembilan puluh satu.",
+      "duration": 10.8,
+      "motion": "zoom-out"
+    },
+    {
+      "image": "scene7.png",
+      "headline": "Mitos atau fakta?",
+      "caption": "Cerita apa lagi yang mau dicek? Tulis di komentar!",
+      "narasi": "Mitos atau fakta? Tulis topik berikutnya di komentar!",
+      "duration": 4.0,
+      "motion": "zoom-in"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Trik Persen: Diskon dalam 3 Detik",
+  "brand": "",
+  "mascot": "mascot.png",
+  "music": "musik.mp3",
+  "scenes": [
+    {
+      "image": "scene1.png",
+      "headline": "Diskon 8% dari Rp50.000?",
+      "caption": "Bisa dihitung 3 detik, tanpa kalkulator.",
+      "narasi": "Diskon delapan persen dari lima puluh ribu rupiah. Bisa dihitung tiga detik, tanpa kalkulator!",
+      "duration": 6.7,
+      "motion": "zoom-in"
+    },
+    {
+      "image": "scene2.png",
+      "headline": "Tukar tempat!",
+      "caption": "8% dari 50 sama dengan 50% dari 8.",
+      "narasi": "Triknya, tukar posisi angkanya. Delapan persen dari lima puluh, sama dengan lima puluh persen dari delapan.",
+      "duration": 7.6,
+      "motion": "pan-left"
+    },
+    {
+      "image": "scene3.png",
+      "headline": "50% = setengah",
+      "caption": "Setengah dari 8 adalah 4.",
+      "narasi": "Lima puluh persen itu setengah. Setengah dari delapan adalah empat.",
+      "duration": 4.9,
+      "motion": "zoom-out"
+    },
+    {
+      "image": "scene4.png",
+      "headline": "Kalikan 1.000",
+      "caption": "4 × 1.000 = Rp4.000. Itu diskonnya!",
+      "narasi": "Karena tadi kita memakai lima puluh, bukan lima puluh ribu, kalikan seribu. Diskonnya empat ribu rupiah.",
+      "duration": 7.6,
+      "motion": "pan-right"
+    },
+    {
+      "image": "scene5.png",
+      "headline": "Coba lagi!",
+      "caption": "12% dari 25 → 25% dari 12 = 3.",
+      "narasi": "Coba lagi. Dua belas persen dari dua puluh lima. Tukar jadi dua puluh lima persen dari dua belas. Seperempat dari dua belas adalah tiga.",
+      "duration": 11.2,
+      "motion": "zoom-in"
+    },
+    {
+      "image": "scene6.png",
+      "headline": "Kenapa bisa?",
+      "caption": "Persen = bagi 100, perkalian boleh ditukar.",
+      "narasi": "Kenapa bisa? Karena persen hanyalah pembagian seratus, dan perkalian boleh ditukar posisinya.",
+      "duration": 5.8,
+      "motion": "zoom-out"
+    },
+    {
+      "image": "scene7.png",
+      "headline": "Tantangan!",
+      "caption": "4% dari 75 = ? Jawab di komentar!",
+      "narasi": "Tantangan: empat persen dari tujuh puluh lima? Jawab di komentar!",
+      "duration": 4.9,
+      "motion": "zoom-in"
+    }
+  ]
+}
